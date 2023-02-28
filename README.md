@@ -1,1 +1,3 @@
-# animated_digital_clock
+# Animated Digital Clock
+### Using HTML, CSS, JavaScript
+
