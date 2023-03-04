@@ -1,0 +1,139 @@
+body {
+    background-color: #bdaca5;
+}
+
+#container {
+    min-height: 800px;
+    position: relative;
+    background-image: url(images/clock_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#clock {
+    text-align: center;
+    font-size: 75px;
+    background-color: black;
+    color: #e2000d;
+    min-width: 315px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.onoff {
+    padding-left: 448px;
+    display: inline-block;
+    position: relative;
+    top: -428px;
+}
+
+.onoff button {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    background-color: #74ba5d;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+#alarm {
+    padding-left: 27px;
+    display: inline-block;
+    position: relative;
+    top: -465px;
+}
+
+#alarm button {
+    border-radius: 50%;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: #575857;
+}
+
+#snooze {
+    padding-left: 370px;
+    display: inline-block;
+    position: relative;
+    top: -465px;
+}
+
+#snooze button {
+    border-radius: 50%;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(231, 9, 9);
+}
+
+
+
+#zero {
+    background-color: black;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+    margin-left: 680px;
+    margin-top: -480px;
+    position: relative;
+    display: none;
+}
+
+#zero p {
+    font-size: 75px;
+    color: #e2000d;
+}
+
+.animate__animated.animate__flash {
+    --animate-duration: 900ms;
+}
+
+#plus {
+    padding-left: 462px;
+    display: inline;
+    position: relative;
+    top: -359px;
+}
+
+#plus button {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #b2b2b2;
+    color: white;
+    font-size: 30px;
+}
+
+#minus {
+    padding-left: 13px;
+    display: inline;
+    position: relative;
+    top: -359px;
+}
+
+#minus button {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #b2b2b2;
+    color: white;
+    font-size: 30px;
+}
